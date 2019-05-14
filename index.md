@@ -35,12 +35,9 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 For a workshop please delete the following block
 {% endcomment %}
 <div class="alert alert-danger">
-This is the workshop template. Delete these lines and use it to customize your
-own website. If you are running a self-organized workshop or have not put in a
-workshop request yet, please also fill in 
-<a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know
-about your workshop and our administrator may contact you if we need any extra
-information.
+This is a two day Library Carpentry Workshop arranged by the Bank of Canada's Knowledge and Information Service and will be delivered in English. The workshop will run from 9:00 - 4:00 pm approximately both days, and 4:00 - 5:00 pm will be reserved for individual Q&A with the instructors. 
+
+The FAIR Data curriculum is being piloted, and will be taught in part by Natasha Simons and Chris Erdmann via video call.
 </div>
 
 {% if page.carpentry != site.carpentry %}
@@ -49,24 +46,6 @@ You specified <code>carpentry: {{page.carpentry}}</code> in <code>index.md</code
 <code>carpentry: {{site.carpentry}}</code> in <code>_config.yml</code>. Make sure you edit both files. After editing <code>_config.yml</code>, you need to run <code>make serve</code> again to 
 see the changes take effect locally.
 </div>
-{% endif %}
-
-{% comment %}
-EVENTBRITE
-
-This block includes the Eventbrite registration widget if
-'eventbrite' has been set in the header.  You can delete it if you
-are not using Eventbrite, or leave it in, since it will not be
-displayed if the 'eventbrite' field in the header is not set.
-{% endcomment %}
-{% if page.eventbrite %}
-<iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
-  frameborder="0"
-  width="100%"
-  height="280px"
-  scrolling="auto">
-</iframe>
 {% endif %}
 
 
