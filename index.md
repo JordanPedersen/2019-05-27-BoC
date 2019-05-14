@@ -37,7 +37,6 @@ For a workshop please delete the following block
 This is a two day Library Carpentry Workshop arranged by the Bank of Canada's Knowledge and Information Service and will be delivered in English. The workshop will run from 9:00 - 4:00 pm approximately both days, and 4:00 - 5:00 pm will be reserved for individual Q&A with the instructors. 
 
 The FAIR Data curriculum is being piloted, and will be taught in part by Natasha Simons and Chris Erdmann via video call.
-</div>
 
 {% if page.carpentry != site.carpentry %}
 <div class="alert alert-warning">
