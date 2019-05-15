@@ -34,9 +34,11 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% comment %}
 For a workshop please delete the following block
 {% endcomment %}
-This is a two day Library Carpentry Workshop arranged by the Bank of Canada's Knowledge and Information Service and will be delivered in English. The workshop will run from 9:00 - 4:00 pm approximately both days, and 4:00 - 5:00 pm will be reserved for individual Q&A with the instructors. 
+This is a two day Library Carpentry Workshop arranged by the Bank of Canada's Knowledge and Information Service and will be delivered in English. The workshop will run from 9:00 - 4:00 pm approximately both days, and 4:00 - 5:00 pm will be reserved for individual Q&A with the instructors. Participants will be able choose which modules they attend, contact Michele Sura (msura@bank-banque-canada.ca) to RSVP.
 
 The FAIR Data curriculum is being piloted, and will be taught in part by Natasha Simons and Chris Erdmann via video call.
+
+Wifi instructions for Government of Canada information professionals will be given by Michele Sura on the day of the event.
 
 {% if page.carpentry != site.carpentry %}
 <div class="alert alert-warning">
@@ -116,7 +118,7 @@ Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
   <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) with Git and OpenRefine (we acknowledge that these are conditional based approved by the Bank of Canada IT department). They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) with Git and OpenRefine (we acknowledge that these are conditional based approved by the Bank of Canada IT department or the respective Government IT department). They should have a few specific software packages installed (listed <a href="#setup">below</a>).
 </p>
 
 {% comment%}
@@ -289,7 +291,7 @@ please preview your site before committing, and make sure to run
   In addition, you will need an up-to-date web browser. 
 </p>
 <p>
-For Bank of Canada employees you will have to go through your IT department, and not all software may be available for you. However, we have included the set-up instructions because alternatively, you may choose to bring a personal laptop with Git and OpenRefine already set up if you prefer.
+For Bank of Canada and participating Government of Canada information professionals you will have to go through your IT department, and not all software may be available for you. However, we have included the set-up instructions because alternatively, you may choose to bring a personal laptop with Git and OpenRefine already set up if you prefer.
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
