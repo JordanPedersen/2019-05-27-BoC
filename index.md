@@ -38,7 +38,7 @@ This is a two day Library Carpentry Workshop arranged by the Bank of Canada's Kn
 
 The FAIR Data curriculum is being piloted, and will be taught in part by Natasha Simons and Chris Erdmann via video call.
 
-Wifi instructions for Government of Canada information professionals will be given by Michele Sura on the day of the event.
+Wifi instructions for Government of Canada information professionals will be given by Michele Sura on the day of the event, collaborative notetaking will be available at https://pad.carpentries.org/2018-05-27-BoC .
 
 {% if page.carpentry != site.carpentry %}
 <div class="alert alert-warning">
